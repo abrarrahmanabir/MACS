@@ -2,6 +2,9 @@
 
 This repository contains the implementation of **MACS**, a deep learning framework for connectomics segmentation that introduces the first ever multi-domain adaptation method for connectomics and achieves robust and accurate segmentation performance across diverse connectomics EM datasets.
 
+### Model Architecture
+![Model Architecture](macs_model.png)
+
 ## Installation
 ```bash
 git clone https://github.com/abrarrahmanabir/MACS.git
