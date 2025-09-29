@@ -2,8 +2,7 @@
 
 This repository contains the implementation of **MACS**, a deep learning framework for connectomics segmentation that introduces the first ever multi-domain adaptation method for connectomics and achieves robust and accurate segmentation performance across diverse connectomics EM datasets.
 
-### Model Architecture
-![Model Architecture](macs_model.png)
+
 
 ## Installation
 ```bash
@@ -45,3 +44,20 @@ bash run_multi.sh
 ```
 
 All trained models will be saved in the `./models/` directory.
+
+### Evaluation
+We have also provided a complete bash script to automate the evaluation process.
+
+To run the evaluation, execute:
+
+
+```bash
+
+bash test_multi.sh
+```
+
+The evaluation results, including all metrics, will be compiled and saved in the `multidomain_all_results.csv` file.
+
+
+### Model Architecture
+![Model Architecture](macs_model.png)
